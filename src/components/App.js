@@ -10,7 +10,8 @@ function clickCount(){
 const App = () => {
   return (
     <div>
-        Button clicked 0 {/* Do not remove the main div */} times.
+        Button clicked {count /* Do not remove the main div */} times.
+        <button>Click me</button>
     </div>
   )
 }
