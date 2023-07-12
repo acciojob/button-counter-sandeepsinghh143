@@ -5,8 +5,9 @@ import './../styles/App.css';
 
 
 const App = () => {
+  let [count, setCount]=useState(0);
   return (
-    let [count, setCount]=useState(0);
+    
     <div>
         <p>Button clicked {count} times</p>
         <button onclick={()=>setCount(count+1)}>Click me</button>
